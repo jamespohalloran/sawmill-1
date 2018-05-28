@@ -87,4 +87,29 @@ $primary-invert: findColorInvert($primary);
     line-height: 2;
     padding: .5278em;
     text-align: center;
+    font-size: 0.8em;
+}
+
+.contact-form {
+    
+    .text-input-field
+    { 
+        width: 250px;
+    }
+
+    textarea
+    {
+        width: 70%;
+    }
+
+    textarea, .text-input-field
+    {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        line-height: 2;
+        padding: .5278em;
+        text-align: center;
+        font-size: 0.8em;
+    }
 }
