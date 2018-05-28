@@ -5,6 +5,7 @@
         {{- if eq .template "media-feature" -}}{{ partial "blocks/media-feature" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "call-to-action" -}}{{ partial "blocks/cta" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "contact-form" -}}{{ partial "blocks/contact-form" (dict "Params" .) }}{{- end -}}
     {{- end -}}
 </div>
 {{ end }}
