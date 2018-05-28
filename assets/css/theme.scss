@@ -91,16 +91,6 @@ $primary-invert: findColorInvert($primary);
 }
 
 .contact-form {
-    
-    .text-input-field
-    { 
-        width: 250px;
-    }
-
-    textarea
-    {
-        width: 70%;
-    }
 
     textarea, .text-input-field
     {
@@ -111,5 +101,12 @@ $primary-invert: findColorInvert($primary);
         padding: .5278em;
         text-align: center;
         font-size: 0.8em;
+
+        border-radius: 3px;
+        border-color: #ddd;
+        border-width: 1px;
+        border-style: solid;
+        width: 70%;
+        max-width: 600px;
     }
 }
