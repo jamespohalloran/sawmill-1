@@ -77,3 +77,14 @@ $primary-invert: findColorInvert($primary);
         }
     }
 }
+
+//contact form
+.text-input-field
+{   
+    width: 250px;
+    display: block;
+    margin: auto;
+    line-height: 2;
+    padding: .5278em;
+    text-align: center;
+}

@@ -2,8 +2,8 @@
   <div class="container">
     <form action="https://formspree.io/{{ .Params.to_email }}"
     method="POST">
-      <input type="text" name="name">
-      <input type="email" name="_replyto">
+      <input type="text" class="text-input-field" placeholder="Your Name" name="name">
+      <input type="email" class="text-input-field" placeholder="Your Email" name="_replyto">
       <button type="submit" class="button is-primary is-large">{{ .Params.button_text }}</button>
     </form>
   </div>
